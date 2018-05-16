@@ -1,0 +1,6 @@
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\ECommerce.ProductCatalog.Model.dll
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\ECommerce.ProductCatalog.Model.pdb
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.csprojAssemblyReference.cache
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.dll
+C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.pdb

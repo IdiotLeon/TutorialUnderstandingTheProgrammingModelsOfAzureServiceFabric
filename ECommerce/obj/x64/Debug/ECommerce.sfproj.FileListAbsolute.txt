@@ -1,0 +1,1 @@
+C:\Project\ServiceFabric\ECommerce\ECommerce\obj\x64\Debug\ECommerce.sfproj.CoreCompileInputs.cache
