@@ -4,3 +4,9 @@ C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECom
 C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
 C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.dll
 C:\Project\ServiceFabric\ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.pdb
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\bin\Debug\ECommerce.ProductCatalog.Model.dll
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\bin\Debug\ECommerce.ProductCatalog.Model.pdb
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.csprojAssemblyReference.cache
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.dll
+D:\DevLeon\TutorialUnderstandingTheProgrammingModelsOfAzureServiceFabric\ECommerce.ProductCatalog.Model\obj\Debug\ECommerce.ProductCatalog.Model.pdb
