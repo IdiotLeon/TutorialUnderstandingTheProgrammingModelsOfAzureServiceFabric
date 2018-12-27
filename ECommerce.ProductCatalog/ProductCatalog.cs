@@ -42,7 +42,7 @@ namespace ECommerce.ProductCatalog
                 new ServiceReplicaListener(context => this.CreateServiceRemotingListener(context))
             };
         }
-
+        
         /// <summary>
         /// This is the main entry point for your service replica.
         /// This method executes when this replica of your service becomes primary and has write status.
