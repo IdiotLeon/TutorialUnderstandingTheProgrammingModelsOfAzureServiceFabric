@@ -1,36 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Fabric;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.ServiceFabric.Data.Collections;
+﻿using ECommerce.ProductCatalog.Model;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
-using ECommerce.ProductCatalog.Model;
+using Microsoft.ServiceFabric.Services.Remoting.Runtime;
+using System;
+using System.Collections.Generic;
+using System.Fabric;
+using System.Threading;
+using System.Threading.Tasks;
+
 
 namespace ECommerce.ProductCatalog
 {
     /// <summary>
-    /// An instance of this class is created for each service replica by the Service Fabric runtime.
+    /// The FabricRuntime creates an instance of this class for each service type instance. 
     /// </summary>
-    internal sealed class ProductCatalog : StatefulService
+    internal sealed class ProductCatalog : StatefulService, IProductCatalogService
     {
         private IProductRepository _repo;
+
         public ProductCatalog(StatefulServiceContext context)
             : base(context)
         { }
 
+        public async Task AddProduct(Product product)
+        {
+            await _repo.AddProduct(product);
+        }
+
+        public async Task<IEnumerable<Product>> GetAllProducts()
+        {
+            return await _repo.GetAllProducts();
+        }
+
         /// <summary>
-        /// Optional override to create listeners (e.g., HTTP, Service Remoting, WCF, etc.) for this service replica to handle client or user requests.
+        /// Optional override to create listeners (like tcp, http) for this service instance.
         /// </summary>
-        /// <remarks>
-        /// For more information on service communication, see https://aka.ms/servicefabricservicecommunication
-        /// </remarks>
-        /// <returns>A collection of listeners.</returns>
+        /// <returns>The collection of listeners.</returns>
         protected override IEnumerable<ServiceReplicaListener> CreateServiceReplicaListeners()
         {
-            return new ServiceReplicaListener[0];
+            return new[] {
+                new ServiceReplicaListener(context => this.CreateServiceRemotingListener(context))
+            };
         }
 
         /// <summary>

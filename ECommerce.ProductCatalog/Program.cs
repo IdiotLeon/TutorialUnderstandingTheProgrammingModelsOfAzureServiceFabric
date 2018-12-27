@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Microsoft.ServiceFabric.Services.Runtime;
+using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.ServiceFabric.Services.Runtime;
 
 namespace ECommerce.ProductCatalog
 {
@@ -20,15 +20,12 @@ namespace ECommerce.ProductCatalog
                 // When Service Fabric creates an instance of this service type,
                 // an instance of the class is created in this host process.
 
-                /// Register the Reliable Service
                 ServiceRuntime.RegisterServiceAsync("ECommerce.ProductCatalogType",
                     context => new ProductCatalog(context)).GetAwaiter().GetResult();
 
-                /// Log Reliable Service has started
                 ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(ProductCatalog).Name);
 
-                /// Sleep forever
-                // Prevents this host process from terminating so services keep running.
+                // Prevents this host process from terminating so services keeps running. 
                 Thread.Sleep(Timeout.Infinite);
             }
             catch (Exception e)

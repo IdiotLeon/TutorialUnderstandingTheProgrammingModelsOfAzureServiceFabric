@@ -1,8 +1,8 @@
-﻿using System;
+﻿using ECommerce.API.Model;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using ECommerce.API.Model;
 
 namespace ECommerce.API.Controllers
 {
@@ -17,7 +17,8 @@ namespace ECommerce.API.Controllers
         }
 
         [HttpPost]
-        public async Task Post([FromBody] ApiProduct product) {
+        public async Task Post([FromBody] ApiProduct product)
+        {
 
         }
     }

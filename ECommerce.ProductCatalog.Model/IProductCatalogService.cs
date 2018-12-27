@@ -1,10 +1,10 @@
-﻿using ECommerce.ProductCatalog.Model;
+﻿using Microsoft.ServiceFabric.Services.Remoting;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ECommerce.ProductCatalog
+namespace ECommerce.ProductCatalog.Model
 {
-    interface IProductRepository
+    public interface IProductCatalogService : IService
     {
         Task<IEnumerable<Product>> GetAllProducts();
 

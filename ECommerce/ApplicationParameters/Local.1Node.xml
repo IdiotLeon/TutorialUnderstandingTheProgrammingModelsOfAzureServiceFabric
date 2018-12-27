@@ -5,8 +5,12 @@
     <Parameter Name="ECommerce.API_InstanceCount" Value="1" />
     <Parameter Name="ECommerce.API_ASPNETCORE_ENVIRONMENT" Value="Development" />
     <Parameter Name="ECommerce.API_InstanceCount" Value="1" />
-    <Parameter Name="ECommerce.API_ASPNETCORE_ENVIRONMENT" Value="Development" />
-    <Parameter Name="ECommerce.API_InstanceCount" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_PartitionCount" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_MinReplicaSetSize" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_PartitionCount" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_MinReplicaSetSize" Value="1" />
+    <Parameter Name="ECommerce.ProductCatalog_TargetReplicaSetSize" Value="1" />
     <Parameter Name="ECommerce.ProductCatalog_PartitionCount" Value="1" />
     <Parameter Name="ECommerce.ProductCatalog_MinReplicaSetSize" Value="1" />
     <Parameter Name="ECommerce.ProductCatalog_TargetReplicaSetSize" Value="1" />

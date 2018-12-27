@@ -5,6 +5,7 @@ namespace ECommerce.API.Model
 {
     public class ApiProduct
     {
+
         [JsonProperty("id")]
         public Guid Id { get; set; }
 
