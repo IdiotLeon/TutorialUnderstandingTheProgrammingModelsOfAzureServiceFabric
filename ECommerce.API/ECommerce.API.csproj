@@ -18,6 +18,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.8" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
     <PackageReference Include="Microsoft.ServiceFabric" Version="5.6.210" />
+    <PackageReference Include="Microsoft.ServiceFabric.Actors" Version="2.6.210" />
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.WebListener" Version="2.6.210" />
     <PackageReference Include="Microsoft.ServiceFabric.Data" Version="2.6.210" />
     <PackageReference Include="Microsoft.ServiceFabric.Services" Version="2.6.210" />
@@ -30,6 +31,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj" />
+    <ProjectReference Include="..\UserActor.Interfaces\UserActor.Interfaces.csproj" />
+    <ProjectReference Include="..\UserActor\UserActor.csproj" />
   </ItemGroup>
 
 </Project>
