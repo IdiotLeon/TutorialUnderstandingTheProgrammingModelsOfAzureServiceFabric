@@ -32,6 +32,11 @@ namespace ECommerce.ProductCatalog
             return await _repo.GetAllProducts();
         }
 
+        public async Task<Product> GetProduct(Guid productId)
+        {
+            return await _repo.GetProduct(productId);
+        }
+
         /// <summary>
         /// Optional override to create listeners (like tcp, http) for this service instance.
         /// </summary>
@@ -42,7 +47,7 @@ namespace ECommerce.ProductCatalog
                 new ServiceReplicaListener(context => this.CreateServiceRemotingListener(context))
             };
         }
-        
+
         /// <summary>
         /// This is the main entry point for your service replica.
         /// This method executes when this replica of your service becomes primary and has write status.

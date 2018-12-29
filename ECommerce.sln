@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor", "UserActor\User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor.Interfaces", "UserActor.Interfaces\UserActor.Interfaces.csproj", "{652EA82A-DECB-4B6A-9DDD-972BA7C3CCB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService.Model", "ECommerce.CehckoutService.Model\ECommerce.CheckoutService.Model.csproj", "{F84FC1E6-CF95-4518-8D14-C01735323E72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,20 @@ Global
 		{652EA82A-DECB-4B6A-9DDD-972BA7C3CCB9}.Release|Any CPU.ActiveCfg = Release|x64
 		{652EA82A-DECB-4B6A-9DDD-972BA7C3CCB9}.Release|x64.ActiveCfg = Release|x64
 		{652EA82A-DECB-4B6A-9DDD-972BA7C3CCB9}.Release|x64.Build.0 = Release|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Debug|x64.ActiveCfg = Debug|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Debug|x64.Build.0 = Debug|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Release|Any CPU.ActiveCfg = Release|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Release|x64.ActiveCfg = Release|x64
+		{B936C9CF-AE15-4F4F-AF0B-9BC5CA5AA855}.Release|x64.Build.0 = Release|x64
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Debug|x64.Build.0 = Debug|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Release|x64.ActiveCfg = Release|Any CPU
+		{F84FC1E6-CF95-4518-8D14-C01735323E72}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

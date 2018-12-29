@@ -30,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ECommerce.CehckoutService.Model\ECommerce.CheckoutService.Model.csproj" />
     <ProjectReference Include="..\ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj" />
     <ProjectReference Include="..\UserActor.Interfaces\UserActor.Interfaces.csproj" />
     <ProjectReference Include="..\UserActor\UserActor.csproj" />
